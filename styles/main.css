@@ -1,67 +1,77 @@
 .homepage {
-
+    display: flex;
+    flex-flow: column;
+    border: 2px indigo solid;
 }
 
 .header {
-
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    border: 2px indigo solid;
 }
 
 .content{
-
+    display: flex;
+    flex-flow: column;
+    border: 2px indigo solid;
 }
 
 .fish {
-
+    display: flex;
+    border: 2px indigo solid;
 }
 
 .fish--title {
-
+    border: 2px indigo solid;
 }
 
 .fish--block {
-
+    border: 2px indigo solid;
 }
 
 .fish--block--img {
-
+    border: 2px indigo solid;
 }
 
 .fish--block--text {
-
+    border: 2px indigo solid;
 }
 
 .quotes {
-
+    border: 2px indigo solid;
 }
 
 .quotes--title {
-
+    border: 2px indigo solid;
 }
 
 .quotes--block {
-
+    border: 2px indigo solid;
 }
 
 .locations {
-
+    border: 2px indigo solid;
 }
 
 .locations--title {
-
+    border: 2px indigo solid;
 }
 
 .locations--block {
-
+    border: 2px indigo solid;
 }
 
 .care {
+    border: 2px indigo solid;
 
 }
 
 .care--title {
-
+    border: 2px indigo solid;
 }
 
 .care--block {
-
+    border: 2px indigo solid;
 }
