@@ -1,24 +1,20 @@
+.homepage {
+
+}
+
 .header {
 
 }
 
-.care {
-
-}
-
-.care--header {
-
-}
-
-.care--block {
-
-}
-
-.care--block--text {
+.content{
 
 }
 
 .fish {
+
+}
+
+.fish--title {
 
 }
 
@@ -38,7 +34,7 @@
 
 }
 
-.quotes--header {
+.quotes--title {
 
 }
 
@@ -46,15 +42,11 @@
 
 }
 
-.quotes--block--text {
-
-}
-
 .locations {
 
 }
 
-.locations--header {
+.locations--title {
 
 }
 
@@ -62,6 +54,14 @@
 
 }
 
-.locations--block--text {
-    
+.care {
+
+}
+
+.care--title {
+
+}
+
+.care--block {
+
 }
