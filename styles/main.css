@@ -15,60 +15,85 @@
 .content{
     display: flex;
     flex-flow: column;
-    border: 2px indigo solid;
+    border: 2px red solid;
 }
 
 .fish {
+    width: 80%;
     display: flex;
+    flex-flow: column;
     border: 2px indigo solid;
 }
 
 .fish--title {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
     border: 2px indigo solid;
 }
 
 .fish--block {
-    border: 2px indigo solid;
+    display: flex;
+    width: 30%;
+    flex-flow: column;
+    border: 2px yellowgreen solid;
 }
 
 .fish--block--img {
-    border: 2px indigo solid;
+    display:flex;
 }
 
 .fish--block--text {
+    
     border: 2px indigo solid;
 }
 
 .quotes {
+    width: 80%;
+    display:flex;
+    flex-flow: column;
     border: 2px indigo solid;
 }
 
 .quotes--title {
+    display: flex;
+    flex-flow: row;
     border: 2px indigo solid;
 }
 
 .quotes--block {
+    display:flex;
+    flex-flow: row;
+    justify-items: space-between;
     border: 2px indigo solid;
 }
 
 .locations {
+    width: 80%;
+    display:flex;
+    flex-flow: column;
     border: 2px indigo solid;
 }
 
 .locations--title {
+    display: flex;
+    flex-flow: row;
     border: 2px indigo solid;
 }
 
 .locations--block {
+    display:flex;
+    flex-flow: row;
     border: 2px indigo solid;
 }
 
 .care {
+    width: 20%;
     border: 2px indigo solid;
-
 }
 
 .care--title {
+    width: 100%;
     border: 2px indigo solid;
 }
 
