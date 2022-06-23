@@ -71,7 +71,7 @@ img {
 }
 
 .fish--block--text {
-    width:100%
+    width:100%;
     height:auto;
     /* border: 2px indigo solid; */
 }
