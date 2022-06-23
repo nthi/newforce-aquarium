@@ -15,9 +15,9 @@ body {
     flex-flow: row wrap;
     justify-content: center;
     width: 100%;
-    border: 2px indigo solid;
-    color: indigo;
-    background-color:rgb(82, 232, 249);
+    border: 1px darkgray;
+    color: lavender;
+    background-color:grey;
 }
 
 .content {
@@ -28,7 +28,7 @@ background-color: rgb(174, 213, 246);
 }
 
 .content--left{
-    width: 75%;
+    width: 80%;
     display: flex;
     flex-flow: column;
     /* border: 2px red solid; */
@@ -47,6 +47,7 @@ background-color: rgb(174, 213, 246);
     width: 100%;
     display: flex;
     flex-flow: row;
+    border-bottom:3px solid grey;
     /* border: 2px indigo solid; */
 }
 
@@ -55,7 +56,7 @@ background-color: rgb(174, 213, 246);
     width: 25%;
     flex-flow: column wrap;
     border: 2px;
-    background-color: whitesmoke;
+    background-color: lavender;
     
 }
 
@@ -79,39 +80,43 @@ img {
     width: 100%;
     display:flex;
     flex-flow: column;
-    border: 2px indigo solid;
+    /* border: 2px indigo solid; */
 }
 
 .quotes--title {
     display: flex;
     flex-flow: row;
-    border: 2px indigo solid;
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    /* border: 2px indigo solid; */
 }
 
 .quotes--block {
     display:flex;
     flex-flow: row;
     justify-items: space-between;
-    border: 2px indigo solid;
+    /* border: 2px indigo solid; */
 }
 
 .locations {
     width: 100%;
     display:flex;
     flex-flow: column;
-    border: 2px indigo solid;
+    /* border: 2px indigo solid; */
 }
 
 .locations--title {
     display: flex;
     flex-flow: row;
-    border: 2px indigo solid;
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    /* border: 2px indigo solid; */
 }
 
 .locations--block {
     display:flex;
     flex-flow: row;
-    border: 2px indigo solid;
+    /* border: 2px indigo solid; */
 }
 
 .content--right {
@@ -125,14 +130,16 @@ img {
 
 .care {
     align-items: flex-end;
-    border: 2px indigo solid;
+    /* border: 2px indigo solid; */
 }
 
 .care--title {
     width: 100%;
-    border: 2px indigo solid;
+    margin: 2em;
+    /* border: 2px indigo solid; */
 }
 
 .care--block {
-    border: 2px indigo solid;
+    margin: 1em;
+    /* border: 2px indigo solid; */
 }
