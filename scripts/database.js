@@ -10,22 +10,25 @@ const database = {
             image: "../images/adam-melrose-_1FbuCzlMqo-unsplash",
             name: "Bart",
             species: "Yellow Tang",
-            food: "crustaceans",
-            size: 3
+            length: 3,
+            location: "Florida",
+            food: "crustaceans"
         },
         {
             image: "../images/david-clode-xNpxB9bfLUE-unsplash",
             name:"Lavie",
             species: "Mandarinfish",
-            food: "Small invertibrates",
-            size: 8
+            length: 8,
+            location: "Australia",
+            food: "Small invertibrates"
         },
         {
             image: "../images/david-clode-LLwRRi7FCtY-unsplash",
             name:"Princess Peach",
             species:"Anthias",
-            food: "Zooplankton",
-            size: 15
+            length: 15,
+            location: "Australia",
+            food: "Zooplankton"
         }
     ]
 }

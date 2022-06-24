@@ -51,7 +51,7 @@ background-color: rgb(174, 213, 246);
     /* border: 2px indigo solid; */
 }
 
-.fish--block {
+/* .fish--block {
     display: flex;
     width: 25%;
     flex-flow: column wrap;
@@ -73,8 +73,8 @@ img {
 .fish--block--text {
     width:100%;
     height:auto;
-    /* border: 2px indigo solid; */
-}
+
+}*/
 
 .quotes {
     width: 100%;
