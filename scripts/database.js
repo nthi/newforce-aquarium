@@ -7,22 +7,29 @@
 const database = {
     fish: [
         {
+            image: "../images/adam-melrose-_1FbuCzlMqo-unsplash",
             name: "Bart",
-            species: "Yellow Tang"
+            species: "Yellow Tang",
             food: "crustaceans",
             size: 3
         },
         {
+            image: "../images/david-clode-xNpxB9bfLUE-unsplash",
             name:"Lavie",
             species: "Mandarinfish",
             food: "Small invertibrates",
             size: 8
         },
         {
+            image: "../images/david-clode-LLwRRi7FCtY-unsplash",
             name:"Princess Peach",
             species:"Anthias",
             food: "Zooplankton",
             size: 15
         }
     ]
+}
+
+export const getFish = () => {
+    return database.fish.map(fish => ({...fish}))
 }
