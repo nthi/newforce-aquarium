@@ -7,15 +7,15 @@
 const database = {
     fish: [
         {
-            image: "../images/adam-melrose-_1FbuCzlMqo-unsplash",
+            image: "../images/adam-melrose-_1FbuCzlMqo-unsplash.jpg",
             name: "Bart",
             species: "Yellow Tang",
             length: 3,
             location: "Florida",
-            food: "crustaceans"
+            food: "Crustaceans"
         },
         {
-            image: "../images/david-clode-xNpxB9bfLUE-unsplash",
+            image: "../images/david-clode-xNpxB9bfLUE-unsplash.jpg",
             name:"Lavie",
             species: "Mandarinfish",
             length: 8,
@@ -23,7 +23,7 @@ const database = {
             food: "Small invertibrates"
         },
         {
-            image: "../images/david-clode-LLwRRi7FCtY-unsplash",
+            image: "../images/david-clode-LLwRRi7FCtY-unsplash.jpg",
             name:"Princess Peach",
             species:"Anthias",
             length: 15,

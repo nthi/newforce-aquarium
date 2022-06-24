@@ -51,18 +51,26 @@ background-color: rgb(174, 213, 246);
     /* border: 2px indigo solid; */
 }
 
-/* .fish--block {
+/*<section class="fish--block">
+            <div><img  class="fish--block--img" src="${fish.image}" /></div>
+            <div class="fish__name">${fish.name}</div>
+            <div class="fish__species">${fish.species}</div>
+            <div class="fish__length">${fish.length}</div>
+            <div class="fish__location">${fish.location}</div>
+            <div class="fish__diet">${fish.food}</div>
+*/
+
+.fish--block {
     display: flex;
-    width: 25%;
+    /* width: 25%; */
     flex-flow: column wrap;
     border: 2px;
     background-color: lavender;
-    
+    flex-flow: column nowrap;
 }
 
 .fish--block--img {
     display:flex;
-    
 }
 
 img {
@@ -70,7 +78,7 @@ img {
     height:auto;
 }
 
-.fish--block--text {
+/*.fish--block--text {
     width:100%;
     height:auto;
 
